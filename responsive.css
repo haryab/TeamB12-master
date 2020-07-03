@@ -1,0 +1,173 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+  .txt-email{
+        text-align: center;
+        width: 150px;
+        font-size: 15px;
+        margin: 10px 10px 10px 15px;
+    }
+    .label{
+        text-align: left;
+        float:left;
+        font-size: 13px;
+        line-height: 15px;
+        margin: 15px 20px;
+    }
+    .footer-link{
+        padding-top: 10px;
+    }
+    .footer-link a{
+        font-size: 13px;
+    }
+    .top-footer-wrapper{
+        height: 50px;
+        position: relative;
+    }
+    .info{
+        width: 30%;
+        text-align: left;
+    }
+    .submit{
+        margin-top: 7px;
+    }
+  /* contents for tablet */
+
+  .products {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    text-align:center;
+  }
+
+  .product {
+    flex: auto;
+    width: 50%;
+  }
+  .btn-content {
+    width:70%;
+    height:30%;
+  }
+  .product-buttons a{
+    width: 90%;
+    height: 30%;
+    font-size: 100%;
+
+  }
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  /*responsive for content */
+  .products {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+  .products {
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+  }
+
+  .product {
+    flex: auto;
+    flex-direction: column;
+    width: 100%;
+  }
+  .product-buttons a {
+    max-width: 100%;
+    max-height: 20%;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .button-fav {
+    padding-bottom: 5px;
+    }
+
+  .button-cart {
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+
+  .top-wrapper h1 {
+    font-size: 100%px;
+    line-height: 10px;
+  }
+  .top-wrapper h2 {
+    font-size: 100%;
+    line-height: 10px;
+  }
+
+  .top-wrapper p {
+    font-size: 100%;
+    line-height: 10px;
+  }
+  /*responsive for footer */
+  .txt-email{
+        text-align: center;
+        width: 200px;
+        font-size: 17px;
+        width: 100%;
+        margin: 0 0;
+  }
+  .email-input h4{
+        padding-left: 0;
+        text-align: center;
+  }
+  .label {
+        text-align: left;
+        float: left;
+        letter-spacing: 5px;
+        font-size: 15px;
+        line-height: 15px;
+        margin: 15px 0;
+  }
+    .btn-footer {
+        text-align: center;
+        font-size: 15px;
+    }
+    .top-footer-wrapper{
+        height: 170px;
+        margin: auto;
+    }
+
+    .footer-link a{
+        font-size: 16px;
+        margin:0 10px;
+    }
+    .info{
+        width: 100%;
+        text-align: center;
+    }
+    .info ul{
+        padding-left: 0;
+    }
+    .info h4{
+        padding-left: 0;
+        margin: 10px 0 ;
+    }
+    .info a{
+        margin-top: 10px;
+    }
+}
